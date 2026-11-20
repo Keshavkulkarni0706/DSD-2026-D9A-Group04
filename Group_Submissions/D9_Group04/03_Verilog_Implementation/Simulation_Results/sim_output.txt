@@ -1,0 +1,99 @@
+VCD info: dumpfile game_score.vcd opened for output.
+=== T01 Reset ===
+PASS  reset -> IDLE | Score= 0 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+=== T02 IDLE holds without START ===
+PASS  no START, stay IDLE | Score= 9 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+=== T03 ACK in IDLE has no effect ===
+PASS  ACK in IDLE | Score= 9 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+=== T04 All 16 scores: START, hold, ignore switches, ACK ===
+PASS  START -> category | Score= 0 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  switches changed, result held | Score=15 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  START again ignored | Score=15 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  ACK -> IDLE | Score=15 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 1 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  switches changed, result held | Score=14 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  START again ignored | Score=14 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  ACK -> IDLE | Score=14 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 2 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  switches changed, result held | Score=13 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  START again ignored | Score=13 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  ACK -> IDLE | Score=13 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 3 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  switches changed, result held | Score=12 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  START again ignored | Score=12 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  ACK -> IDLE | Score=12 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 4 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  switches changed, result held | Score=11 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  START again ignored | Score=11 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  ACK -> IDLE | Score=11 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 5 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  switches changed, result held | Score=10 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  START again ignored | Score=10 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  ACK -> IDLE | Score=10 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 6 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  switches changed, result held | Score= 9 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  START again ignored | Score= 9 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  ACK -> IDLE | Score= 9 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 7 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  switches changed, result held | Score= 8 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  START again ignored | Score= 8 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  ACK -> IDLE | Score= 8 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 8 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  switches changed, result held | Score= 7 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  START again ignored | Score= 7 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  ACK -> IDLE | Score= 7 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score= 9 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  switches changed, result held | Score= 6 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  START again ignored | Score= 6 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  ACK -> IDLE | Score= 6 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score=10 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  switches changed, result held | Score= 5 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  START again ignored | Score= 5 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  ACK -> IDLE | Score= 5 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score=11 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  switches changed, result held | Score= 4 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  START again ignored | Score= 4 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  ACK -> IDLE | Score= 4 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score=12 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  switches changed, result held | Score= 3 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  START again ignored | Score= 3 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  ACK -> IDLE | Score= 3 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score=13 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  switches changed, result held | Score= 2 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  START again ignored | Score= 2 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  ACK -> IDLE | Score= 2 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score=14 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  switches changed, result held | Score= 1 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  START again ignored | Score= 1 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  ACK -> IDLE | Score= 1 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  START -> category | Score=15 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  switches changed, result held | Score= 0 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  START again ignored | Score= 0 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  ACK -> IDLE | Score= 0 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+=== T05 START held for many clocks ===
+PASS  START held, stays EXCELLENT | Score=13 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  ACK -> IDLE | Score=13 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+=== T06 START and ACK together ===
+PASS  IDLE: START wins, ACK ignored | Score= 6 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  MEDIUM: ACK returns to IDLE | Score= 6 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+=== T07 RESET from every category state ===
+PASS  enter state | Score= 1 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  RESET -> IDLE | Score= 1 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  enter state | Score= 5 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  RESET -> IDLE | Score= 5 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  enter state | Score= 9 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  RESET -> IDLE | Score= 9 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+PASS  enter state | Score=13 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+PASS  RESET -> IDLE | Score=13 state=000 (IDLE) LEDs G=0 Y=0 R=0 B=0
+=== T08 Boundary scores ===
+PASS  boundary | Score= 4 state=001 (LOW) LEDs G=1 Y=0 R=0 B=0
+PASS  boundary | Score= 5 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  boundary | Score= 8 state=010 (MEDIUM) LEDs G=0 Y=1 R=0 B=0
+PASS  boundary | Score= 9 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  boundary | Score=12 state=011 (HIGH) LEDs G=0 Y=0 R=1 B=0
+PASS  boundary | Score=13 state=100 (EXCELLENT) LEDs G=0 Y=0 R=0 B=1
+==================================================
+TOTAL CHECKS = 85   PASSED = 85   FAILED = 0
+RESULT: ALL TESTS PASSED
+==================================================
+/mnt/project-files/game-score-categorizer/D9_Group04/03_Verilog_Implementation/Testbench/tb_Game_Score_Categorizer.v:135: $finish called at 1406000 (1ps)
