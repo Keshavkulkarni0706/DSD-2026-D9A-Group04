@@ -18,7 +18,7 @@
 | 8 | FPGA synthesis and implementation completed | Completed | `04_FPGA_Hardware/` (9 LUTs, 9 FFs; bitstream generated) | 20/11/2026 09:33 |
 | 9 | Hardware demonstration completed | Completed | `04_FPGA_Hardware/board_demo/` | 20/11/2026 10:15 |
 | 10 | Results, presentation and report uploaded | Completed | `05_Results/`, `06_Presentation/`, `07_Final_Report/` | 20/11/2026 10:30 |
-| 11 | Final Pull Request created | In Progress | – | 20/11/2026 10:30 |
+| 11 | Final Pull Request created | Completed | https://github.com/MrugendraVasmatkar/Digital_System_Design_Practical_2026_27_D9A_B/pull/28 | 20/11/2026 10:44 |
 
 ## 2. Time-wise progress log
 | Date | Actual time | Work completed | Evidence path | Blocker | Next action | Updated by |
@@ -35,6 +35,7 @@
 | 20/11/2026 | 09:33 | Synthesis, implementation and bitstream; Boolean board programmed | `04_FPGA_Hardware/` | – | Board demonstration | Kulkarni Keshavraj Yogesh |
 | 20/11/2026 | 10:15 | Board demonstration recorded (category LEDs LD0–LD3) | `04_FPGA_Hardware/board_demo/` | – | Final documentation | Kulkarni Keshavraj Yogesh |
 | 20/11/2026 | 10:30 | RGB feature dropped (core module used as top with `boolean.xdc`); Logisim screenshots, Vivado evidence, results, report, slides and reflection completed | all folders | – | Final Pull Request | Kulkarni Keshavraj Yogesh |
+| 20/11/2026 | 10:44 | Final Pull Request #28 to the faculty repository titled and described | https://github.com/MrugendraVasmatkar/Digital_System_Design_Practical_2026_27_D9A_B/pull/28 | – | Faculty review | Kulkarni Keshavraj Yogesh |
 
 Add rows as needed.
 
@@ -53,9 +54,9 @@ Add rows as needed.
 
 ### 20 November 2026
 - Completed: Logisim optimisation and screenshots, Vivado simulation (66/66 pass), synthesis and implementation (9 LUTs, 9 FFs), board programming and demonstration, results, presentation, report and team reflection
-- Pending: final Pull Request
+- Pending: faculty review of the Pull Request
 - Evidence uploaded: `02_FSM_Logisim/screenshots/`, `03_Verilog_Implementation/Simulation_Results/`, `04_FPGA_Hardware/`
-- Final submission status: ready for the final Pull Request
+- Final submission status: submitted (Pull Request #28)
 
 ## 5. Group leader confirmation
 I confirm that this status reflects the work completed by the group and that the linked evidence has been uploaded.

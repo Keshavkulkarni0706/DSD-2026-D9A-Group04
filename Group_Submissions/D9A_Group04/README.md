@@ -12,7 +12,7 @@
 **Department:** Electronics and Telecommunication, Vivekanand Education Society's Institute of Technology (VESIT), University of Mumbai  
 **Group ID:** D9A_Group04  
 **Repository URL:** https://github.com/Keshavkulkarni0706/DSD-2026-D9A-Group04  
-**Final Pull Request URL:** [URL]
+**Final Pull Request URL:** https://github.com/MrugendraVasmatkar/Digital_System_Design_Practical_2026_27_D9A_B/pull/28
 
 ## 2. Assigned Problem Statement
 - **Number/title:** Game Score Categorizer – Suggested modification H1: Four-Category Score Categorizer (Add Excellent)
@@ -128,4 +128,4 @@ The most useful lesson was how much the timing of the input register matters. Lo
 - [x] Results, challenges and conclusion documented.
 - [x] Presentation and final report uploaded.
 - [x] STATUS.md is up to date.
-- [ ] Final Pull Request created and URL recorded.
+- [x] Final Pull Request created and URL recorded.
